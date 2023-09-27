@@ -1,0 +1,55 @@
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: lightpink;
+    text-decoration: none;
+    padding: 1em 1em;
+    border: 1px solid black;
+    margin: .25em 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #333;
+
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   .text {
+     font-size: 20px;
+     color: white;
+     font: Helvetica;
+   }
+
+h1 {
+    color: lightpink; 
+    text-align: center; 
+    text-decoration: underline;
+    font: Helvetica;
+}
+
+h2 {
+    color: teal; 
+    text-align: center;
+}
+
+p {
+    color: white; 
+    text-align: center;
+}
+
+p1 {
+    color: darkgrey; 
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
